@@ -22,21 +22,37 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="display-1 text-muted bg-light text-nowrap">
-        h1. Bootstrap heading
-      </h1>
-      <h2 class="text-uppercase text-bg-primary">h2. Bootstrap heading</h2>
-      <h3>h3. Bootstrap heading</h3>
-      <h4>h4. Bootstrap heading</h4>
-      <h5>h5. Bootstrap heading</h5>
-      <h6>h6. Bootstrap heading</h6>
+      <!-- primary buttons -->
+      <h6 class="display-6">Buttons</h6>
+      <button type="button" class="btn">simple button</button>
+      <button type="button" class="btn btn-primary">primary button</button>
+      <!-- link buttons -->
+      <h6 class="display-6">Link buttons</h6>
+      <a href="" class="btn btn-primary">Link button</a>
+      <!-- outline button -->
+      <h6 class="display-6">Outline button</h6>
+      <button type="button" class="btn btn-outline-danger">
+        outline danger button
+      </button>
+      <!-- size of buttons -->
+      <h6 class="display-6">Size of buttons</h6>
+      <button class="btn btn-primary btn-lg" tabindex="-1">Larg buttons</button>
+      <button class="btn btn-light btn-sm">Small button</button>
+      <!-- disable of buttons -->
+      <h6 class="display-6">Disable of buttons</h6>
+      <button type="button" class="btn btn-primary" disabled>Primary</button>
+      <!-- disable of buttons -->
+      <h6 class="display-6">Block buttons</h6>
+      <div class="d-block">
+        <button class="btn btn-light">Button</button>
+      </div>
 
-      <p class="fs-1 text-primary">.fs-1 text</p>
-      <p class="fs-2 text-secondary">.fs-2 text</p>
-      <p class="fs-3 text-success">.fs-3 text</p>
-      <p class="fs-4 text-info bg-dark">.fs-4 text</p>
-      <p class="fs-5 text-white bg-dark">.fs-5 text</p>
-      <p class="fs-6 text-danger">.fs-6 text</p>
+      <h6 class="display-6">Button groups</h6>
+      <div class="btn-group bg-primary">
+        <button type="button" class="btn btn-dark">Left</button>
+        <button type="button" class="btn btn-dark">Middle</button>
+        <button type="button" class="btn btn-dark">Right</button>
+      </div>
     </div>
   </body>
 </html>
